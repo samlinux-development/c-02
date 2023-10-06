@@ -1,0 +1,8 @@
+{
+  "canisters": {
+      "c-02": {
+          "type": "assets",
+          "source": ["dist/"]
+      }
+  }
+}

@@ -1,0 +1,27 @@
+---
+import '@fontsource/noto-sans';
+import Data from '../data.json';
+---
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+		<meta name="viewport" content="width=device-width" />
+		<meta name="generator" content={Astro.generator} />
+		<title>{ Data.metadata.title }</title>	
+	</head>
+	<body class="m-3">
+		<div class="flex">
+			<div class="mx-auto max-w-5xl border rounded-2xl">
+				<slot/>
+			</div>
+		</div>		
+	</body>
+</html>
+
+<style is:global>
+	body {
+		font-family: 'Noto Sans', sans-serif;
+		font-size: larger;
+	}
+</style>
