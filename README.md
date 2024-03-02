@@ -14,7 +14,7 @@ The project uses the [Tailwind CSS](https://tailwindcss.com/) framework and a cu
 ## Prerequisites
 To use this Astro project you need to install all dependencies first. To do so, run the following command in the root of this project:
 
-**Note:** To get a clean git repository, a tool called `digit` is used. [degit](https://github.com/Rich-Harris/degit) makes a copy of the git repositorie.  Make sure you have it installed. If you haven't installed it yet, you can do so using the following command.
+**Note:** To get a clean git repository, a tool called `digit` is used. [degit](https://github.com/Rich-Harris/degit) makes a copy of the git repository.  Make sure you have it installed. If you haven't installed it yet, you can do so using the following command.
 
 ```bash
 npm install -g degit
